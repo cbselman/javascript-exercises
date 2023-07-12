@@ -39,12 +39,21 @@ describe('sum', () => {
 });
 
 describe('multiply', () => {
+<<<<<<< HEAD
 	test('multiplies two numbers', () => {
 		expect(calculator.multiply([2,4])).toBe(8);
 	});
 
 	test('multiplies several numbers', () => {
 		expect(calculator.multiply([2,4,6,8,10,12,14])).toBe(645120);
+=======
+	test.skip('multiplies two numbers', () => {
+		expect(calculator.multiply(2,4)).toBe(8);
+	});
+
+	test.skip('multiplies several numbers', () => {
+		expect(calculator.multiply(2,4,6,8,10,12,14)).toBe(645120);
+>>>>>>> refs/remotes/origin/main
 	});
 });
 
